@@ -54,8 +54,7 @@ export default function Home() {
   const isFormComplete =
     signatureData.name.trim() !== "" &&
     signatureData.position.trim() !== "" &&
-    signatureData.phone.trim() !== "" &&
-    signatureData.email.trim() !== "";
+    signatureData.phone.trim() !== "";
 
   return (
     <main className="main-container">
@@ -66,7 +65,7 @@ export default function Home() {
       <header className="header">
         <div className="header-badge">OUTIL INTERNE</div>
         <h1>
-          <PiEnvelopeDuotone size={32}/>
+          <PiEnvelopeDuotone size={32} />
           Générateur de Signature Email
         </h1>
         <p>
