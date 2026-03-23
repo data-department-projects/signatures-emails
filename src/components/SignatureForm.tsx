@@ -71,7 +71,7 @@ export default function SignatureForm({ data, onChange }: SignatureFormProps) {
         />
       </div>
 
-      <div className="input-group">
+      {/* <div className="input-group">
         <label htmlFor="email">Email</label>
         <input
           type="email"
@@ -83,7 +83,7 @@ export default function SignatureForm({ data, onChange }: SignatureFormProps) {
           placeholder="koffi.kodjo@facamstairwaytogo.com"
           required
         />
-      </div>
+      </div> */}
     </div>
   )
 }
