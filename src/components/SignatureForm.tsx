@@ -26,8 +26,8 @@ export default function SignatureForm({ data, onChange }: SignatureFormProps) {
 
   return (
     <div className="form-container">
-      <h2>Informations de l'employé</h2>
-      
+      <h2>Informations de l&apos;employé</h2>
+
       <div className="input-group">
         <label htmlFor="name">Nom</label>
         <input
@@ -37,7 +37,7 @@ export default function SignatureForm({ data, onChange }: SignatureFormProps) {
           value={data.name}
           onChange={handleChange}
           onFocus={handleFocus}
-          placeholder="Jean Dupont"
+          placeholder="Koffi Kodjo"
           required
         />
       </div>
@@ -66,6 +66,7 @@ export default function SignatureForm({ data, onChange }: SignatureFormProps) {
           onChange={handleChange}
           onFocus={handleFocus}
           placeholder="+228 90 00 00 00"
+          pattern="[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}"
           required
         />
       </div>
@@ -79,7 +80,7 @@ export default function SignatureForm({ data, onChange }: SignatureFormProps) {
           value={data.email}
           onChange={handleChange}
           onFocus={handleFocus}
-          placeholder="jean.dupont@facamstairwaytogo.com"
+          placeholder="koffi.kodjo@facamstairwaytogo.com"
           required
         />
       </div>
