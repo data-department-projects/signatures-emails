@@ -58,11 +58,11 @@ td { mso-line-height-rule: exactly; }
           </td>
         </tr>
         <tr>
-          <td width="150" valign="middle" style="width:150px;vertical-align:middle;padding:0 15px 0 0;font-family:${fontStack};font-size:11px;font-weight:500;color:${white};line-height:1.25;">
+          <td valign="middle" style="white-space:nowrap;vertical-align:middle;padding:0 15px 0 0;font-family:${fontStack};font-size:11px;font-weight:500;color:${white};line-height:1.25;">
             ${displayPosition}
           </td>
-          <td valign="middle" style="vertical-align:middle;padding-top:5px;">
-            <table cellpadding="0" cellspacing="0" border="0" width="220" style="width:220px;border-collapse:collapse;">
+          <td width="100%" valign="middle" style="width:100%;vertical-align:middle;padding-top:4px;">
+            <table cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;border-collapse:collapse;">
               <tr>
                 <td height="1" bgcolor="${dividerWhite}" style="height:1px;font-size:0;line-height:0;background-color:${dividerWhite};">&nbsp;</td>
               </tr>
@@ -73,7 +73,7 @@ td { mso-line-height-rule: exactly; }
 
       <table cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;border-collapse:collapse;margin-top:20px;">
         <tr>
-          <td width="120" style="width:120px;font-size:0;line-height:0;">&nbsp;</td>
+          <td width="140" style="width:140px;font-size:0;line-height:0;">&nbsp;</td>
           <td valign="top" style="vertical-align:top;">
             <table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
               <tr>
