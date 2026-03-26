@@ -16,7 +16,7 @@ interface SignaturePreviewProps {
 
 const SignaturePreview = forwardRef<HTMLDivElement, SignaturePreviewProps>(
   ({ data }, ref) => {
-    const primaryBlue = "#102a78";
+    const primaryBlue = "#001b61";
     const white = "#ffffff";
     const dividerWhite = "#b3c0df";
     const fontStack = "'Montserrat','Trebuchet MS',Arial,Helvetica,sans-serif";
